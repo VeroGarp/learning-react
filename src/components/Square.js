@@ -4,7 +4,7 @@ class Square extends React.Component {
   render() {
     var squareStyle = {
       height: 150,
-      backgroundColor: "#FF6663"
+      backgroundColor: this.props.color
     };
 
     return <div style={squareStyle}></div>;

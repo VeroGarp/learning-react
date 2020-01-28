@@ -23,7 +23,7 @@ function App() {
         <LetterTwo bgcolor="#AE99FF">U</LetterTwo>
       </div>
       <div>
-        <Card />
+        <Card color="#FFA737" />
       </div>
     </div>
   );

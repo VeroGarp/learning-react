@@ -9,7 +9,7 @@ class Label extends React.Component {
       margin: 0
     };
 
-    return <p style={labelStyle}>#FF6663</p>;
+    return <p style={labelStyle}>{this.props.color}</p>;
   }
 }
 

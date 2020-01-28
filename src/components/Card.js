@@ -16,8 +16,8 @@ class Card extends React.Component {
 
     return (
       <div style={cardStyle}>
-        <Square />
-        <Label />
+        <Square color={this.props.color} />
+        <Label color={this.props.color} />
       </div>
     );
   }
