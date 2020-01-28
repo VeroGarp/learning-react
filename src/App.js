@@ -7,7 +7,7 @@ import "./App.css";
 
 function App() {
   return (
-      <div>
+    <div>
       <div>
         <Letter>A</Letter>
         <Letter>E</Letter>
@@ -21,6 +21,9 @@ function App() {
         <LetterTwo bgcolor="#FFD52E">I</LetterTwo>
         <LetterTwo bgcolor="#49DD8E">O</LetterTwo>
         <LetterTwo bgcolor="#AE99FF">U</LetterTwo>
+      </div>
+      <div>
+        <Card />
       </div>
     </div>
   );
