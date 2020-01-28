@@ -1,3 +1,5 @@
+import React from "react";
+// import Buttonify from "../src/components/Buttonify";
 import Letter from "../src/components/Letter";
 import LetterTwo from "../src/components/LetterTwo";
 import Card from "../src/components/Card";
@@ -5,6 +7,7 @@ import "./App.css";
 
 function App() {
   return (
+      <div>
       <div>
         <Letter>A</Letter>
         <Letter>E</Letter>
