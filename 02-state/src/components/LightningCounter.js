@@ -21,7 +21,11 @@ class LightningCounter extends React.Component {
   }
 
   render() {
-    return <h1>{this.state.strikes}</h1>;
+    var counterStyle = {
+      color: "#66FFFF",
+      fontSize: 50
+    };
+    return <h1 style={counterStyle}>{this.state.strikes}</h1>;
   }
 }
 
