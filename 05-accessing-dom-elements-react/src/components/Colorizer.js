@@ -1,4 +1,5 @@
 import React from "react";
+import ColorLabel from "./ColorLabel";
 
 class Colorizer extends React.Component {
   constructor(props, context) {
@@ -52,6 +53,7 @@ class Colorizer extends React.Component {
           ></input>
           <button type="submit">go</button>
         </form>
+        <ColorLabel color={this.state.bgColor} />
       </div>
     );
   }
